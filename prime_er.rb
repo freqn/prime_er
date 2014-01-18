@@ -6,8 +6,6 @@ def first_n_primes(n)
   prime.first n
 end
 
-
-
 puts "How many primes would you like to generate?"
 puts "Please enter a number: "
 result = first_n_primes(gets.chomp.to_i)
