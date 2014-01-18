@@ -1,8 +1,6 @@
 require 'prime'
 
 def first_n_primes(n)
-  # Check for correct input!
-
   # The Ruby 1.9 Prime class makes the array automatically!
   prime = Prime.instance
   prime.first n
